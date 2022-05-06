@@ -1,24 +1,25 @@
 --------------------------------------
-SEQUENCIA PARA CRIAR O PROJETO
+
+SEQUENCIA PARA INICIAR O PROJETO
+
+  
+
+>Basta executar o comando na pasta raíz do back-end e aguardar a instalação dos pacotes.
+>Antes de inicializar altere seu certificados em app.js nas linhas 12 e 13
+>
+
+	npm i
+
+
+
 --------------------------------------
-Criar o arquivo package
-npm init y
 
-//Gerencia as requisições, rotas e URLs, entre outra funcionalidades
-npm install express
-
-//Instalar o módulo para reiniciar o servidor sempre que houver alteração no código fonte
-npm install -D nodemon
-
-//Rodar o projeto usando o nodemon 
-nodemon app.js
-
---------------------------------------
 COMO RODAR O PROJETO
---------------------------------------
 
-//Instalar todas as dependencias indicada pelo package.json
-npm install
+  
 
-//Rodar o projeto usando o nodemon 
-nodemon app.js
+>Rodar o projeto usando o nodemon
+
+>
+
+	nodemon app.js

@@ -5,11 +5,11 @@ function statusSirene(sirene, ip) {
     }
 
     const time = setInterval(() => {
-        httpRequest('###URL API', { "host": ip })
+        httpRequest('https://localhost:3001/ping', { "host": ip })
     }, 10000);
 
     function stopTime() {
-        alert("Ops! Algo deu errado... contate o administrador!")
+        alert("Ops! Algo deu errado...")
         clearInterval(time)
     }
 
@@ -37,7 +37,6 @@ function statusSirene(sirene, ip) {
                     body: JSON.stringify(obj)
                 });
                 const ping = await rawResponse.json();
-                //console.log(ping)
                 defStatus(sirene, ping)
 
             } catch (erro) {
