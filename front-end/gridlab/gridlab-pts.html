@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Gridlab - Altarede Fiber</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" />
+</head>
+
+<body class="bg-dark text-secondary">
+    <div class="container">
+        <div class="text-center margin-top">
+            <a href="/"><img class="d-block mx-auto mb-4 logo" src="../assets/img/log.png"></a>
+            <h4>STATUS GRIDLAB</h4>
+        </div>
+        <hr>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-12 cidades">
+                <h2 class="cidade">Petropolis</h2>
+                <div class="gridlab petropolis">
+                    <div class="sirene" id="sao-sebastiao-1" ip="177.130.2.81">São Sebastião 1</div>
+                    <div class="sirene" id="sao-sebastiao-2" ip="177.130.2.82">São Sebastião 2</div>
+                    <div class="sirene" id="s-boening" ip="177.130.2.215">S. Boening</div>
+                    <div class="sirene" id="independencia-1" ip="177.130.2.73">Independência 1</div>
+                    <div class="sirene" id="independencia-2" ip="177.130.2.73">Independência 2</div>
+                    <div class="sirene" id="joao-xavier" ip="177.130.2.74">João Xavier</div>
+                    <div class="sirene" id="simeria" ip="177.130.2.83">Simeria</div>
+                    <div class="sirene" id="q-duques" ip="177.130.2.77">Duques</div>
+                    <div class="sirene" id="q-ceara" ip="177.130.2.76">Ceará</div>
+                    <div class="sirene" id="q-e-santo" ip="177.130.2.78">Espirito Santo</div>
+                    <div class="sirene" id="q-amazonas" ip="177.130.2.75">Amazonas</div>
+                    <div class="sirene" id="q-rjaneiro" ip="177.130.2.80">Rio de Janeiro</div>
+                    <div class="sirene" id="dr-thouzet" ip="177.130.2.70">Dr. Thouzet</div>
+                    <div class="sirene" id="rua-teresa" ip="187.16.253.135">Rua Teresa</div>
+                    <div class="sirene" id="maio-24" ip="177.130.2.69">24 de Maio</div>
+                    <div class="sirene" id="ferroviarios" ip="177.130.2.71">Ferroviários</div>
+                    <div class="sirene" id="v-felipe-1" ip="177.130.2.214">Vila Felipe 1</div>
+                    <div class="sirene" id="v-felipe-2" ip="177.130.2.213">Vila Felipe 2</div>
+                </div>
+                <hr>
+                <div class="legenda">
+                    <p>Aguarde 10 Segundos para atualizar em tempo real</p>
+                    <div class="row legenda">
+                        <div class="circle online"></div>
+                        <label for="online">Online</label>
+                        <div class="circle offline"></div>
+                        <label for="online">Offline</label>
+                        <div class="circle unknown"></div>
+                        <label for="online">Desconhecido</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="my-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2013-2021 Altarede Imperial</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="../pesquisa/">Pesquisar</a></li>
+                <li class="list-inline-item"><a href="https://forms.gle/aE2VnVK4iAArRZu87">Vendas</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="../js/ping.js"></script>
+</body>
+
+</html>

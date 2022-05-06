@@ -1,0 +1,157 @@
+.upper {
+    text-transform: uppercase;
+}
+
+#nipv6 {
+    margin-top: 15px;
+}
+
+.mudanca {
+    margin-top: 15px;
+}
+
+#latlong {
+    margin-top: 6px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#location-map {
+    background: #f8f9fa;
+    border: none;
+    border-radius: 7px;
+    height: 300px;
+    width: 100%;
+    margin-right: 13px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.input-number {
+    text-align: center;
+}
+
+.input-number::-webkit-outer-spin-button,
+.input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+/* Css tela e pesquisa */
+
+.pesquisa {
+    margin-bottom: 25px;
+}
+
+.ativacao {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.ativacao ul {
+    color: white;
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 250px;
+    height: 72px;
+}
+
+
+/* Css gridlab */
+
+.cidade {
+    display: flex;
+    justify-content: center;
+}
+
+.gridlab {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sirene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 130px;
+    height: 45px;
+    color: snow;
+    background-color: royalblue;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.sirene-online {
+    background-color: rgb(62, 206, 62);
+}
+
+.sirene-offline {
+    background-color: rgb(241, 70, 70);
+}
+
+.legenda {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.online {
+    background-color: rgb(62, 206, 62);
+}
+
+.offline {
+    background-color: rgb(241, 70, 70);
+}
+
+.unknown {
+    background-color: royalblue;
+}
+
+.legenda label {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    .circle {
+        width: 22px;
+        height: 22px;
+        margin: 5px;
+    }
+    .legenda label {
+        font-size: 12px;
+    }
+    .sirene {
+        font-size: 0.6em;
+        width: 80px;
+        height: 35px;
+        margin: 6px;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        margin-top: 90px;
+    }
+    .sirene {
+        width: 160px;
+        height: 55px;
+        margin: 10px;
+    }
+}
